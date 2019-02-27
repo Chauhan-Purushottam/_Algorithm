@@ -144,6 +144,7 @@ public class BST {
             System.out.println("Enter the number you want to delete ");
             int num = s.nextInt();
             root = delete(root,num);
+            System.out.println("Inorder Traversal of BST after deletion ");
             inorder(root);   
             
         }
